@@ -17,6 +17,8 @@ exports.initiateRegistration = catchAsync(async (req, res, next) => {
     branch: req.body.branch,
   };
 
+  console.log(req.body);
+
   const existing = await Registration.findOne({
     email: registration.email,
     phoneNumber: registration.phoneNumber,

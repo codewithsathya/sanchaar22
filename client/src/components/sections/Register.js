@@ -106,6 +106,7 @@ function Register({ workshop, workshops, handleClose }) {
         // }
       )
       .then((response) => {
+        console.log(response);
         setIsLoading(false);
         if (response.data.paid === true) setRegistered(true);
         setShowConfirm(true);
