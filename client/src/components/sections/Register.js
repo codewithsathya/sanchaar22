@@ -99,7 +99,7 @@ function Register({ workshop, workshops, handleClose }) {
     }
     axios
       .post(
-        "https://wiss-sanchaar-2022.herokuapp.com/api/register/initiateRegistration",
+        "https://sanchaar-api.herokuapp.com//api/register/initiateRegistration",
         values
         // {
         //   withCredentials: true,

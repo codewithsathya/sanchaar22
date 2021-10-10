@@ -43,7 +43,7 @@ exports.initiateRegistration = catchAsync(async (req, res, next) => {
   const newRegistration = await Registration.create(registration);
   console.log(newRegistration);
   if (newRegistration) {
-    const link = `https://sanchaar22.wissenaire.org/emailConfirm/${newRegistration._id}`;
+    const link = `https://sanchaar.wissenaire.org/emailConfirm/${newRegistration._id}`;
 
     const text = `Hi ${newRegistration.name}! \n Please click on the link below to verify your email and complete the payment \n ${link}`;
 
@@ -102,7 +102,7 @@ exports.makePayment = catchAsync(async (req, res, next) => {
   data.purpose = "workshop";
   data.amount = 600;
   data.buyer_name = registration.name;
-  data.redirect_url = `https://sanchaar22.wissenaire.org/callback?user_id=${registration._id}`;
+  data.redirect_url = `https://sanchaar.wissenaire.org/callback?user_id=${registration._id}`;
   data.email = registration.email;
   data.phone = registration.phoneNumber;
   data.send_email - false;
