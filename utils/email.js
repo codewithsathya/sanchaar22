@@ -6,6 +6,8 @@ const sendEmail = async (options) => {
   //create transport function
 
   let transporter = nodemailer.createTransport({
+    host: 'smtp.gmail.com',
+    port: 465,
     service: "gmail",
     auth: {
       user: config.EMAIL_USERNAME,

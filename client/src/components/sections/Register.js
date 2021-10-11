@@ -99,7 +99,7 @@ function Register({ workshop, workshops, handleClose }) {
     }
     axios
       .post(
-        "https://sanchaar-api.herokuapp.com/api/register/initiateRegistration",
+        "https://127.0.0.1:5000/api/register/initiateRegistration",
         values
         // {
         //   withCredentials: true,
