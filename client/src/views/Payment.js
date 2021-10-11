@@ -76,7 +76,7 @@ const Payment = () => {
     // console.log(regId);
     axios
       .post(
-        `https://wiss-sanchaar-2022.herokuapp.com/api/register/initiatePayment/${regId}`,
+        `https://sanchaar-api.herokuapp.com/api/register/initiatePayment/${regId}`,
         {}
       )
       .then((res) => {
@@ -93,7 +93,7 @@ const Payment = () => {
   useEffect(() => {
     axios
       .patch(
-        `https://wiss-sanchaar-2022.herokuapp.com/api/register/verifyEmail/${regId}`,
+        `https://sanchaar-api.herokuapp.com/api/register/verifyEmail/${regId}`,
         {}
       )
       .then((res) => {
