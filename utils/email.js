@@ -20,7 +20,10 @@ const sendEmail = async (options) => {
     text: options.text,
   };
 
-  await transporter.sendMail(mailOptions);
+  await transporter.sendMail(mailOptions, (err, res) => {
+    if(err) console.log("Email error: ", err)
+    else console.log("Email sent successfully: ", res);
+  });
 };
 
 module.exports = sendEmail;
