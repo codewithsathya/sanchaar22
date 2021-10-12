@@ -34,7 +34,7 @@ const PaymentStatus = () => {
     const idx = link.indexOf("callback");
     const str = link.substring(idx);
     axios
-      .get(`https://sanchaar-api.herokuapp.com/api/register/${str}`)
+      .get(`https://sanchaar22.herokuapp.com/api/register/${str}`)
       .then((res) => {
         console.log(res);
         setMessage("Payment Successful, Please check your emails");
