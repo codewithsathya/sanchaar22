@@ -44,19 +44,19 @@ exports.initiateRegistration = catchAsync(async (req, res, next) => {
 
   const newRegistration = await Registration.create(registration);
   console.log(newRegistration);
-  if (newRegistration) {
-    const link = `https://sanchaar.wissenaire.org/emailConfirm/${newRegistration._id}`;
+  // if (newRegistration) {
+  //   const link = `https://sanchaar.wissenaire.org/emailConfirm/${newRegistration._id}`;
 
-    const text = `Hi ${newRegistration.name}! \n Please click on the link below to verify your email and complete the payment \n ${link}`;
+  //   const text = `Hi ${newRegistration.name}! \n Please click on the link below to verify your email and complete the payment \n ${link}`;
 
-    const options = {
-      email: newRegistration.email,
-      name: newRegistration.name,
-      text,
-      subject: "Email confirmation",
-    };
-    await email(options);
-  }
+  //   const options = {
+  //     email: newRegistration.email,
+  //     name: newRegistration.name,
+  //     text,
+  //     subject: "Email confirmation",
+  //   };
+    // await email(options);
+  // }
 
   res.status(200).json({
     status: "success",
