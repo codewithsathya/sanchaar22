@@ -25,6 +25,16 @@ export default function AlertDialog({ show, handleClose, content }) {
             tag="a"
             color="light"
             wideMobile
+            style={{ color: "white", backgroundColor: "green" }}
+          >
+            <a href="https://www.meraevents.com/ticketWidget?eventId=245484&ucode=organizer&wcode=9063CD-9063CD-333333-9063CD-&theme=1">
+              Pay
+            </a>
+          </Button>
+          <Button
+            tag="a"
+            color="light"
+            wideMobile
             onClick={handleClose}
             style={{ color: "green" }}
           >

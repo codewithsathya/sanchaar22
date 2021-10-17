@@ -108,7 +108,7 @@ function Register({ workshop, workshops, handleClose }) {
       .then((response) => {
         console.log(response);
         setIsLoading(false);
-        if (response.data.paid === true) setRegistered(true);
+        if (response.data.paid === true || response.data.status === "Already registered") setRegistered(true);
         setShowConfirm(true);
         // console.log(response);
       })
@@ -137,10 +137,9 @@ function Register({ workshop, workshops, handleClose }) {
   };
 
   const alertDetails = [
-    "Registration has been successful. An email has been sent to you for further steps",
-    "You have successfully completed the payment and are registered for the workshop. Please check your email for further updates",
+    "Registration has been successful. Please click on pay to continue with your payment.",
     //changed by sathya
-    "You have already registered for this course. An email has been sent to you for further steps."
+    "You have already registered for this course. Please click on pay to continue with your payment."
   ];
   const successRegistration = (
     <div>
