@@ -40,6 +40,7 @@ exports.initiateRegistration = catchAsync(async (req, res, next) => {
       status: "Already registered",
       paid: false
     })
+    return;
   }
 
   const newRegistration = await Registration.create(registration);
