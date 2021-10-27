@@ -100,6 +100,15 @@ const Hero = ({
               width={348}
               height={252}
             />
+            <br></br>
+            <Image
+              // className="has-shadow"
+              src={require("./../../assets/images/Sanchaar2.jpg")}
+              alt="Hero"
+              width={600}
+              height={252}
+            />
+
             {/* </a> */}
           </div>
         </div>

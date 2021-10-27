@@ -37,7 +37,7 @@ const workshops = [
   },
   {
     heading: "Python Programming",
-    pdfLink : "",
+    pdfLink : "https://drive.google.com/file/d/1OQvuQeI4qsBGFxqgPM7MNUBe-AftEPOs/view?usp=sharing",
     content: "13th and 14th November 2021",
     delay: "600",
     image : "python1.svg",

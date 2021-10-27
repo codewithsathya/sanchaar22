@@ -101,7 +101,9 @@ const FeaturesSplit = ({
                         Software/Product Development
                       </span>{" "}
                       <br></br>
-                      We have gained expertise in Embedded Systems & IOT, DevOPs & Cloud Computing, Machine learning, Deep learning and android application development.
+                      We have gained expertise in Embedded Systems & IOT, DevOPs
+                      & Cloud Computing, Machine learning, Deep learning and
+                      android application development.
                     </li>
                     <li>
                       <span

@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.3a328069.chunk.css",
-    "main.js": "/static/js/main.347d2fe7.chunk.js",
-    "main.js.map": "/static/js/main.347d2fe7.chunk.js.map",
+    "main.js": "/static/js/main.6f4240d6.chunk.js",
+    "main.js.map": "/static/js/main.6f4240d6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1e1db0f9.js",
     "runtime-main.js.map": "/static/js/runtime-main.1e1db0f9.js.map",
-    "static/js/2.56cba903.chunk.js": "/static/js/2.56cba903.chunk.js",
-    "static/js/2.56cba903.chunk.js.map": "/static/js/2.56cba903.chunk.js.map",
+    "static/js/2.04aa1c09.chunk.js": "/static/js/2.04aa1c09.chunk.js",
+    "static/js/2.04aa1c09.chunk.js.map": "/static/js/2.04aa1c09.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cc2adc93badab5e08eb8992cf1f44a99.js": "/precache-manifest.cc2adc93badab5e08eb8992cf1f44a99.js",
+    "precache-manifest.62734906407515f5f9512dc0a5296ab6.js": "/precache-manifest.62734906407515f5f9512dc0a5296ab6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.3a328069.chunk.css.map": "/static/css/main.3a328069.chunk.css.map",
-    "static/js/2.56cba903.chunk.js.LICENSE.txt": "/static/js/2.56cba903.chunk.js.LICENSE.txt",
+    "static/js/2.04aa1c09.chunk.js.LICENSE.txt": "/static/js/2.04aa1c09.chunk.js.LICENSE.txt",
     "static/media/Brand.png": "/static/media/Brand.80c661ce.png",
+    "static/media/Sanchaar2.jpg": "/static/media/Sanchaar2.3b2d7d12.jpg",
     "static/media/Screenshot (149).png": "/static/media/Screenshot (149).af1cedeb.png",
     "static/media/android.svg": "/static/media/android.cf584169.svg",
     "static/media/style.scss": "/static/media/illustration-section-02.63d0555d.svg",
@@ -40,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1e1db0f9.js",
-    "static/js/2.56cba903.chunk.js",
+    "static/js/2.04aa1c09.chunk.js",
     "static/css/main.3a328069.chunk.css",
-    "static/js/main.347d2fe7.chunk.js"
+    "static/js/main.6f4240d6.chunk.js"
   ]
 }
