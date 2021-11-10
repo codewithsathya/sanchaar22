@@ -22,7 +22,7 @@ const workshops = [
   {
     heading: "Machine Learning",
     pdfLink : "https://drive.google.com/file/d/1xHj9xotZ8R-qok0pXpId1lqSN5bB7DHF/view?usp=sharing",
-    content: "13th and 14th November 2021",
+    content: "20th and 21st November 2021",
     delay: "400",
     image : "feature-tile-icon-04.svg",
     price: 600
@@ -30,7 +30,7 @@ const workshops = [
   {
     heading: "Automobile",
     pdfLink : "https://drive.google.com/file/d/1GaEoUd21bXBk1rQdaN5fmhqEDIpRZ1GE/view?usp=sharing",
-    content: "13th and 14th November 2021",
+    content: "27th and 28th November 2021",
     delay: "200",
     image : "feature-tile-icon-06.svg",
     price: 600
@@ -38,7 +38,7 @@ const workshops = [
   {
     heading: "Python Programming",
     pdfLink : "https://drive.google.com/file/d/1OQvuQeI4qsBGFxqgPM7MNUBe-AftEPOs/view?usp=sharing",
-    content: "13th and 14th November 2021",
+    content: "27th and 28th November 2021",
     delay: "600",
     image : "python1.svg",
     price: 600
