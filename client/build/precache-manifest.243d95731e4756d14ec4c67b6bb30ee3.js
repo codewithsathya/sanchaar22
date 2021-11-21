@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b618a24f65cbaae9670b5f8f5d2e8fc",
+    "revision": "a6af22ad77c628a4289a08bdd9b77680",
     "url": "/index.html"
   },
   {
-    "revision": "9f6e33a63b5e8e843d8d",
-    "url": "/static/css/main.3a328069.chunk.css"
+    "revision": "af061eba77ac4c577bf6",
+    "url": "/static/css/main.f7db190a.chunk.css"
   },
   {
-    "revision": "37bcf2f30a8b23e71930",
-    "url": "/static/js/2.04aa1c09.chunk.js"
+    "revision": "bba173e3b9098153ff46",
+    "url": "/static/js/2.c9940248.chunk.js"
   },
   {
     "revision": "7575cba1dd439de41d8109bd78cdb17a",
-    "url": "/static/js/2.04aa1c09.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c9940248.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9f6e33a63b5e8e843d8d",
-    "url": "/static/js/main.0f9f9e8f.chunk.js"
+    "revision": "af061eba77ac4c577bf6",
+    "url": "/static/js/main.797cedb6.chunk.js"
   },
   {
     "revision": "73bd59b160b39bbc23ce",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Screenshot (149).af1cedeb.png"
   },
   {
-    "revision": "cf5841691900815df1a3ea20c1464631",
-    "url": "/static/media/android.cf584169.svg"
+    "revision": "a83d1788bcfb493cc076d186c09a3a17",
+    "url": "/static/media/android.a83d1788.svg"
   },
   {
     "revision": "3ce357e71a836a86691b904396a8955c",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/engineering.1a956c12.jpg"
   },
   {
-    "revision": "9abed84e9b591ee362123314fb6090fe",
-    "url": "/static/media/feature-tile-icon-01.9abed84e.svg"
+    "revision": "5d1cd0653fc61b7f36133d35c9ae71e9",
+    "url": "/static/media/feature-tile-icon-01.5d1cd065.svg"
   },
   {
     "revision": "bd39f30434175e7c8b1d1c74fa6569fd",
@@ -100,12 +100,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.2810a88b.svg"
   },
   {
-    "revision": "a6b14b52b0b7634eb97849eb56d89203",
-    "url": "/static/media/python.a6b14b52.svg"
+    "revision": "4493a745a1ae112d85611023b0380480",
+    "url": "/static/media/python.4493a745.svg"
   },
   {
-    "revision": "86fb9b34d29de52b48a6349898e569bf",
-    "url": "/static/media/python1.86fb9b34.svg"
+    "revision": "a3d4a4a0c8538a4037e21aeea53d5441",
+    "url": "/static/media/python1.a3d4a4a0.svg"
   },
   {
     "revision": "602986328a61907f5483e62cd8198e3c",

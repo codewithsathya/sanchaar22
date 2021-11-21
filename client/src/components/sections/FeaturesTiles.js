@@ -22,7 +22,7 @@ const workshops = [
   {
     heading: "Machine Learning",
     pdfLink : "https://drive.google.com/file/d/1xHj9xotZ8R-qok0pXpId1lqSN5bB7DHF/view?usp=sharing",
-    content: "20th and 21st November 2021",
+    content: "27th and 28th November 2021",
     delay: "400",
     image : "feature-tile-icon-04.svg",
     price: 600
